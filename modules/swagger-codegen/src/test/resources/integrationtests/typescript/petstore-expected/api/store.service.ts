@@ -27,7 +27,7 @@ import { Http, Headers, URLSearchParams }                    from '@angular/http
 import { RequestMethod, RequestOptions, RequestOptionsArgs } from '@angular/http';
 import { Response, ResponseContentType }                     from '@angular/http';
 
-import { Observable }                                        from 'rxjs/Observable';
+import { Observable }                                        from 'rxjs';
 import '../rxjs-operators';
 
 import { Order } from '../model/order';
